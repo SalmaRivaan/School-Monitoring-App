@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    height: 100%;
+  }
+  
+  .attendance-title {
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .attendance-date {
+    font-size: 1.2rem;
+    font-weight: 550;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  
+  .fnanblock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    height: 80%;
+  }
+  
+  .block {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .block.absent {
+    background-color: #9f0000;
+  }
+  
+  .block.present {
+    background-color: #09a218;
+  }
+  
+  @media (min-width: 768px) {
+    .block {
+      height: 4rem;
+      width: 4rem;
+      margin-bottom: 0;
+    }
+  
+    .attendance-title {
+      font-size: 2.5rem;
+    }
+  
+    .attendance-date {
+      font-size: 1.5rem;
+    }
+  }
+  

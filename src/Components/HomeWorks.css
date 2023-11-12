@@ -1,0 +1,35 @@
+.homework-container {
+    background-color: #d9d9d9;
+    padding: 2rem; /* Adjusted padding for better responsiveness */
+    width: 70%;
+    box-sizing: border-box;
+  }
+  
+  .text-uppercase {
+    width: 100%; /* Full width for single column on small screens */
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 1.5rem; /* Adjusted margin for better spacing on small screens */
+  }
+  
+  .subject-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem; /* Adjusted gap for better spacing on small screens */
+    margin-top: 1rem;
+  }
+  
+  
+ 
+  
+  @media (min-width: 768px) {
+    .text-uppercase {
+      width: 48%;
+    }
+  
+    .subject-container div {
+      width: 48%; 
+    }
+  }
+  

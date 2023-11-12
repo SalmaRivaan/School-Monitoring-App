@@ -1,0 +1,64 @@
+
+  .navbar {
+    display: flex;
+    
+    background-color: #5d8882;
+  }
+  
+  .navbar-toggler {
+    background: none;
+    border: none;
+    outline: none;
+    
+    
+  }
+  element {
+ border:none;
+  }
+  
+  .menu-list {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    display: none;
+    height: 2000px;
+    width: 450px;
+  }
+  
+  .menu-list.open {
+    display: block;
+  }
+  
+  .menu-list ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .menu-list ul li {
+   
+    font-size: 30px;
+    cursor: pointer;
+  
+    margin-bottom: 50px;
+  }
+  
+  .navbar-brand {
+    text-decoration: none;
+    color: white;
+  }
+  span{
+    padding-left: 20px;
+   
+  }
+  button.navbar-toggler:focus,
+  button.navbar-toggler:active {
+    outline: none !important;
+    border: none !important;
+    padding: none;
+    margin: 0;
+  }
+  
